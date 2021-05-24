@@ -50,7 +50,7 @@ function CheckoutProduct({
                     }
                 </div>
                 <p className='text-xs my-2 line-clamp-3'>{description}</p>
-                <Currency quantity={price} currency='INR' />
+                <p className='flex z-30 mb-6'><Currency quantity={price} currency='INR' /></p>
                 {hasPrime && (
                     <div className='flex items-center space-x-2 -mt-5'>
                         <img loading='lazy' className='w-12' src="https://links.papareact.com/fdw" alt="" />
